@@ -25,4 +25,10 @@ public class SyncMovimientoRequest {
 
 	@JsonProperty("gasto")
 	private SyncGastoData gasto;
+	
+	@JsonProperty("usuario")
+	private String usuario;
+
+	@JsonProperty("clave")
+	private String clave;
 }
